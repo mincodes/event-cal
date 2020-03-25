@@ -38,7 +38,7 @@ html{
    
 }
 .bannerPic{
-    background-image: url(pictures/78399925_10157098400906622_4615004116886749184_o.jpg);
+    background-image: url(https://cdn.glitch.com/ce4df961-42a3-4365-b7b6-3815e9ee35ec%2F78399925_10157098400906622_4615004116886749184_o.jpg?v=1585106353164);
     background-position: center;
     background-size: cover;
     margin-top: 4px;
@@ -46,7 +46,7 @@ html{
     width: 400px;
     border: 2px;
     border-color: white;
-    box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 3px 25px 5px rgba(0, 0, 0, 0.25);
        
 }
 

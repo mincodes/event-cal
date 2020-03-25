@@ -2,24 +2,54 @@
     to your site with Javascript */
 
 // prints "hi" in the browser's dev tools console
-console.log("hi");
-
-
 
 const ACCESS_MAP = {
   "amlkm2lkm": {
-    name: {
-      
-    }
+    "name": "First event",
+    "email": "email@email.com",
+    "eventName": "",
+    "location": "",
+    "startDate": "",
+    "endDate": "",
+    "bannerURL": "",
+    "eventDescription": "",
+    "questions": ""
   }
 }
 
 const formFields = [
-  "name"
-]
+  "name",
+  "email",
+  "eventName",
+  "location",
+  "startDate",
+  "startTime",
+  "endDate",
+  "endTime",
+  "bannerURL",
+  "eventDescription",
+  "questions"
+];
 
-function checkAccessCode() {
-  
+function checkAccessCode(searchKey) {
+  if(!searchKey) {
+    
+  }
+  let accessData = (ACCESS_MAP[searchKey]) ? ACCESS_MAP[searchKey]: null;
+  if(!accessData) {
+    return;
+  }
+  Object.keys(accessData).forEach((el) => {
+    console.log(el);
+  });
 }
+
+$(document).ready(() => {
+  $("create-submit").click(() => {
+    console.log("Clicked")
+  })
+})
+
+
 
 
