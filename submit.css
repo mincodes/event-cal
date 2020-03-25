@@ -17,7 +17,7 @@ html{
     background-color:  #ffffff;
     
     height: 700px;
-    border-radius: 10px;
+    border-radius: 8px;
     border-color: black;
     border-width: 10px;
     
@@ -25,7 +25,7 @@ html{
 
 .accessKey{
     height: 300px;
-    border-radius: 10px;
+    border-radius: 8px;
     border-color: black;
     border-width: 10px;
     background-color:  #ffffff;
@@ -41,6 +41,7 @@ html{
     background-image: url(https://cdn.glitch.com/ce4df961-42a3-4365-b7b6-3815e9ee35ec%2F78399925_10157098400906622_4615004116886749184_o.jpg?v=1585106353164);
     background-position: center;
     background-size: cover;
+    border-radius: 7px;
     margin-top: 4px;
     height: 180px;
     width: 400px;
@@ -53,10 +54,9 @@ html{
 .btn-submit{
     text-align: center;
     padding 20px, 30px;
-    border-radius: 6px;
     border: 2px solid #66b260;
     color: #ffffff;
-    border-radius: 6px;
+    border-radius: 7px;
     background: linear-gradient(120deg, #8ac97c 0%, #3DB2C0 100%);
 }
 .code{
