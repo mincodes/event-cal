@@ -33,20 +33,19 @@ const formFields = [
 
 function checkAccessCode(searchKey) {
   if(!searchKey) {
-    searchKey = $('#accessCode').value();
+    searchKey = $('#accessCode').val();
   }
-  console.log(searchKey);
   let accessData = (ACCESS_MAP[searchKey]) ? ACCESS_MAP[searchKey]: null;
   if(!accessData) {
     return;
   }
   Object.keys(accessData).forEach((el) => {
-    console.log(el);
+    $(`#${el}`).val(accessData[el]);
   });
 }
 
 $(document).ready(() => {
-  $("#create-submit").click((e) => {
+  $("#searchAccess").on("click", (e) => {
     e.preventDefault();
     checkAccessCode(null);
   })
