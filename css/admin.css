@@ -1,0 +1,101 @@
+.controlBox {
+  background-color: var(--bg-secondary);
+  /* height: 600px; */
+}
+
+.testone {
+  background-color: grey;
+  height: 200px;
+  color: white;
+}
+
+.box {
+  margin-top: 180px;
+}
+
+.number {
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.test3 {
+  background-color: red;
+}
+
+.test4 {
+  background-color: blue;
+}
+
+.allevents {
+  background-color: #9d9d9d;
+  height: 100%;
+}
+
+.status-grid div.card {
+  height: 210px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.card .card-title {
+  font-size: 18px;
+  color: var(--color-secondary);
+}
+
+div.card .number {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+ul.tab-headers {
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ul.tab-headers li {
+  padding: 10px;
+  color: var(--color-secondary);
+  list-style-type: none;
+}
+
+ul.tab-headers li.active {
+  color: var(--color-primary);
+}
+
+div.table-headers {
+  width: calc(100% - 20px);
+  padding-top: 10px;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.table-headers .table-header-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+div.data-grid {
+  padding: 0px;
+}
+
+div.table-entry {
+  font-size: 1rem;
+  font-weight: 300;
+  width: 100%;
+}
+
+div.table-entry a.table-action {
+  width: 100%;
+  padding: 5px 0px;
+  text-align: center;
+  margin: 0px auto;
+  background-color: var(--color-tertiary);
+  color: white;
+  text-decoration: none;
+}
