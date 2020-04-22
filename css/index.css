@@ -4,7 +4,6 @@
   --bg-secondary: #EBEBEB;
   --bg-tertiary: #c4c4c4;
 
-
   --color-primary: #000000;
   --color-secondary: #878787;
   --color-tertiary: #289263;
@@ -89,13 +88,12 @@ p {
   margin: 0px auto;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 660px) {
   .container {
     width: 100%;
-    margin: 0px;
+    margin: 0px auto;
   }
 }
-
 
 /*
 Padding rules
@@ -119,16 +117,9 @@ Margin rules
   margin: 2rem;
 }
 
-
 /*
 Card
 */
-
-.card {
-  background-color: var(--bg-secondary); 
-  padding: 1rem;
-}
-
 
 .bg-primary {
   background-color: var(--bg-primary) !important;
@@ -142,9 +133,6 @@ Card
   background-color: var(--bg-tertiary) !important;
 }
 
-
-
-
 /* Nav */
 
 nav {
@@ -155,13 +143,14 @@ nav {
   background-color: var(--bg-secondary);
 }
 
-nav div:nth-of-child(3n+2), nav div:nth-of-child(3n) {
+nav div:nth-of-child(3n + 2),
+nav div:nth-of-child(3n) {
   text-align: center;
 }
 
 nav div.navbar {
   width: 100%;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 nav ul.nav {
@@ -170,7 +159,6 @@ nav ul.nav {
   justify-content: space-between;
   list-style-type: none;
   padding: 0px 1rem;
-  
 }
 
 nav ul.nav a {
@@ -183,4 +171,45 @@ nav ul.nav a {
   height: 50px;
   border-radius: 50%;
   border-radius: #00ff00;
+}
+
+/* Home Page Styles */
+
+
+#sideColumn, div#createEvent {
+    margin: 1rem 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  div#createEvent, #sideColumn {
+    width: calc(100% - 2rem);
+    margin: 1rem;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  div#createEvent {
+    width: 60%;
+    padding: 10px;
+  }
+
+  #sideColumn {
+    width: 30%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+
+#homePageContainer {
+  justify-content: space-between;
 }

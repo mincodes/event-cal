@@ -4,204 +4,199 @@
 
 /**** Containers ****/
 
-.backgroundC{
-    
-    height: 400px;
-    background-color: #38db6a;
-    background-position: top;
+.hidden {
+  display: none;
 }
 
-.top{
-    margin-top: 90px;
-    padding-top: 20px;
-    height: 300px;
-    
-    border-radius: 2px;
-    border: white;
+.backdropImage {
+  height: 600px;
+  background-position: top;
+  min-width: 100%;
+/*   background-image: url("https://unavsa.org/wp-content/uploads/2019/12/NEWSLETTER-UNAVSA16-Conference-Reveal-1-400x284.png"); */
+  background-repeat: no-repeat;
+/*   background-attachment:fixed; */
+  background-size: cover;
 }
 
-.bot{    
-    height: 600px;
+#backdropImage{
+  filter:blur(20px)
+}
+
+.top {
+  margin-top: 90px;
+  padding-top: 20px;
+  height: 300px;
+
+  border-radius: 2px;
+  border: white;
+}
+
+.bot {
+  height: 600px;
 }
 
 /****  ****/
-.banner{
-    
-    background-position: center;
-    background-size: cover;
-    background-color: grey;
-    border: 2px;
-    border-color: white;
-       
-   
+.banner {
+  background-position: center;
+  background-size: cover;
+  background-color: grey;
+  border: 2px;
+  border-color: white;
 }
 
-.infoBox{
-    border: 2px;
-    background-color: #f7f3f3;
-    
-    
+.infoBox {
+  border: 2px;
+  background-color: #f7f3f3;
 }
 
-.textbox{
-    margin: 20px 20px 0px 20px;
+.textbox {
+  margin: 20px 20px 0px 20px;
 }
 
-.description{
-    background-color: #f7f3f3;
-    
+.description {
+  background-color: #f7f3f3;
 }
 
-.maps{
-    background-color: #f7f3f3;
+.maps {
+  background-color: #f7f3f3;
 }
-.mapBox{
-    margin-top: 10px;
+.mapBox {
+  margin-top: 10px;
 }
-
-
 
 /**** Paragraph *****/
 
-p.timeLocation{
-    margin-top: 25px;
-    font-size: 14px;
+p.timeLocation {
+  margin-top: 25px;
+  font-size: 14px;
 }
 
-p.description{
-    
-    font-size: 75%;  
-   
+p.description {
+  font-size: 75%;
 }
 
-p.date{
-    text-align: center;
-    margin-top: 50px;
-    font-size: 23px;
+p.date {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 23px;
 }
 
 .text-center {
-    text-align: center!important;
+  text-align: center !important;
 }
-
 
 /*** Buttons ***/
 
-.action{
-    margin-top: 40px;
-    margin-left: 100px;
-    padding 10px, 30px;
-    border-radius: 6px;
-    border: 2px solid #66b260;
-    color: #ffffff;
-    border-radius: 6px;
-    background: linear-gradient(120deg, #8ac97c 0%, #3DB2C0 100%);
-
+.action {
+  margin-top: 40px;
+  margin-left: 100px;
+  padding: 10px, 30px;
+  border-radius: 6px;
+  border: 2px solid #66b260;
+  color: #ffffff;
+  border-radius: 6px;
+  background: linear-gradient(120deg, #8ac97c 0%, #3DB2C0 100%);
 }
 
-.action:hover{
-    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    color: white;
-    
+.action:hover {
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  color: white;
 }
 
-.calendar{
-    background-color: #3d77e1;
-    color: white;
-    padding: 5px 10px 5px 10px;
-    border-radius: 7px;
-    margin-top: 50px;
-    margin-left: 55px;
-    
+.calendar {
+  background-color: #3d77e1;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 7px;
+  margin-top: 50px;
+  margin-left: 55px;
 }
 
+.card {
+  padding: 1rem 0.5rem;
+}
 
 /******************************************* Submit Page  ***********************************************/
 
-html{
-    background-color: hsl(180, 14%, 95%); 
-    height:  2500px;
+html {
+  background-color: hsl(180, 14%, 95%);
+  height: 2500px;
 }
 
-.forms{
-    background-color: hsl(180, 14%, 95%);
-    height: 1400px;
+.forms {
+  background-color: hsl(180, 14%, 95%);
+  height: 1400px;
 }
-.submit{
-    background-color: #ffffff;
-    
-}
-
-.status{
-    background-color:  #ffffff;
-    
-    height: 700px;
-    border-radius: 8px;
-    border-color: black;
-    border-width: 10px;
-    
+.submit {
+  background-color: #ffffff;
 }
 
-.accessKey{
-    height: 300px;
-    border-radius: 8px;
-    border-color: black;
-    border-width: 10px;
-    background-color:  #ffffff;
+.status {
+  background-color: #ffffff;
+
+  height: 700px;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 10px;
+}
+
+.accessKey {
+  height: 300px;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 10px;
+  background-color: #ffffff;
 }
 
 .text-center {
-    text-align: center!important;
+  text-align: center !important;
 }
 
-.title{
-    text-align: center;
-    margin-top: 30px;
-    color: #289263;
-   
+.title {
+  text-align: center;
+  margin-top: 30px;
+  color: #289263;
 }
-.bannerPic{
-    background-image: url(https://cdn.glitch.com/ce4df961-42a3-4365-b7b6-3815e9ee35ec%2F78399925_10157098400906622_4615004116886749184_o.jpg?v=1585106353164);
-    background-position: center;
-    background-size: cover;
-    border-radius: 7px;
-    margin-top: 4px;
-    height: 180px;
-    width: 400px;
-    border: 2px;
-    border-color: white;
-    box-shadow: 0px 3px 25px 5px rgba(0, 0, 0, 0.25);
-       
+.bannerPic {
+  background-image: url(https://cdn.glitch.com/ce4df961-42a3-4365-b7b6-3815e9ee35ec%2F78399925_10157098400906622_4615004116886749184_o.jpg?v=1585106353164);
+  background-position: center;
+  background-size: cover;
+  border-radius: 7px;
+  margin-top: 4px;
+  height: 180px;
+  width: 400px;
+  border: 2px;
+  border-color: white;
+  box-shadow: 0px 3px 25px 5px rgba(0, 0, 0, 0.25);
 }
 
-.btn-submit{
-    text-align: center;
-    padding 20px, 30px;
-    border: 2px solid #66b260;
-    color: #ffffff;
-    border-radius: 7px;
-    background: linear-gradient(120deg, #8ac97c 0%, #3DB2C0 100%);
+.btn-submit {
+  text-align: center;
+  padding: 20px, 30px;
+  border: 2px solid #66b260;
+  color: #ffffff;
+  border-radius: 7px;
+  background: linear-gradient(120deg, #8ac97c 0%, #3DB2C0 100%);
 }
-.code{
-    padding: 20 55;
-    text-align: center;
-}
-h1{
-    display: inline;
-   
-}
-h4{
-    display: inline;
+.code {
+  padding: 20 55;
+  text-align: center;
 }
 
-h4.code{
-    color: #289263;
+h1 {
+  display: inline;
+}
+h4 {
+  display: inline;
 }
 
-.shadow{
-    box-shadow: 0px 5px 25px 0px hsla(0, 0%, 0%, 0.25);
+h4.code {
+  color: #289263;
 }
 
-.codeBox{
-    
+.shadow {
+  box-shadow: 0px 5px 25px 0px hsla(0, 0%, 0%, 0.25);
+}
+
+.codeBox {
 }
