@@ -1,117 +1,3 @@
-/********************************************************** Event Page **********************************************\
-
-
-
-/**** Containers ****/
-
-.hidden {
-  display: none;
-}
-
-.backdropImage {
-  height: 600px;
-  background-position: top;
-  min-width: 100%;
-/*   background-image: url("https://unavsa.org/wp-content/uploads/2019/12/NEWSLETTER-UNAVSA16-Conference-Reveal-1-400x284.png"); */
-  background-repeat: no-repeat;
-/*   background-attachment:fixed; */
-  background-size: cover;
-}
-
-#backdropImage{
-  filter:blur(20px)
-}
-
-.top {
-  margin-top: 90px;
-  padding-top: 20px;
-  height: 300px;
-
-  border-radius: 2px;
-  border: white;
-}
-
-.bot {
-  height: 600px;
-}
-
-/****  ****/
-.banner {
-  background-position: center;
-  background-size: cover;
-  background-color: grey;
-  border: 2px;
-  border-color: white;
-}
-
-.infoBox {
-  border: 2px;
-  background-color: #f7f3f3;
-}
-
-.textbox {
-  margin: 20px 20px 0px 20px;
-}
-
-.description {
-  background-color: #f7f3f3;
-}
-
-.maps {
-  background-color: #f7f3f3;
-}
-.mapBox {
-  margin-top: 10px;
-}
-
-/**** Paragraph *****/
-
-p.timeLocation {
-  margin-top: 25px;
-  font-size: 14px;
-}
-
-p.description {
-  font-size: 75%;
-}
-
-p.date {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 23px;
-}
-
-.text-center {
-  text-align: center !important;
-}
-
-/*** Buttons ***/
-
-.action {
-  margin-top: 40px;
-  margin-left: 100px;
-  padding: 10px, 30px;
-  border-radius: 6px;
-  border: 2px solid #66b260;
-  color: #ffffff;
-  border-radius: 6px;
-  background: linear-gradient(120deg, #8ac97c 0%, #3DB2C0 100%);
-}
-
-.action:hover {
-  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  color: white;
-}
-
-.calendar {
-  background-color: #3d77e1;
-  color: white;
-  padding: 5px 10px 5px 10px;
-  border-radius: 7px;
-  margin-top: 50px;
-  margin-left: 55px;
-}
-
 .card {
   padding: 1rem 0.5rem;
 }
@@ -123,10 +9,18 @@ html {
   height: 2500px;
 }
 
+input{
+  color:black;
+}
+
 .forms {
   background-color: hsl(180, 14%, 95%);
   height: 1400px;
 }
+.form-control {
+  color: black;  
+}
+
 .submit {
   background-color: #ffffff;
 }

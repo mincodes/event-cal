@@ -58,6 +58,8 @@ function addTicket() {
 
   updateEvents(randomstring, ticket);
   storeMap(randomstring);
+   populateTable("tableEntries", ACCESS_MAP);
+ 
   /*
   let submitDate = new Date();
   $("#ticketSubmitDate").innerHTML(
@@ -78,11 +80,8 @@ function addTicket() {
   // localStorage.setItem("ticketList", JSON.stringify(tickets));
 }
 
-//Fills Admin chart with form data
-function populateTable(tableBody, data){
-  
-  
-}
+
+
 
 
 //Make access code visable
@@ -90,12 +89,14 @@ function showCode(accessCode) {
   $("#accessCode").html(accessCode);
 }
 
+
 $(document).ready(() => {
   $("#searchAccess").on("click", (e) => {
     e.preventDefault();
     checkAccessCode(null);
   });
 });
+
 
 //Event Listners
 form.addEventListener("submit", function (e) {
@@ -108,4 +109,3 @@ form.addEventListener("submit", function (e) {
   showCode("amlkm2lkm");
 });
 
-// showCode();

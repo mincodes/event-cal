@@ -11,52 +11,51 @@
       integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
       crossorigin="anonymous"
     ></script>
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/event.css" rel="stylesheet" />
     <script src="js/database.js"></script>
     <script src="js/library.js"></script>
   </head>
   <body>
     <div>
       <div class="full-width backdropImage" id="backdropImage"></div>
-      <div class="container"
-        style="position: relative; top: -620px;"
-      >
+      <div class="container" style="position: relative; top: -620px;">
         <div class="row top">
           <div class="col-2 "></div>
           <div
             class="col-5 banner border border-light border-right-0 border-bottom-0 "
             style="background-size: cover; background-position: center;"
             id="bannerImage"
-          >
-            <!--           <img id="bannerImage"
-            style="max-width:100%"
-          /> -->
-          </div>
+          ></div>
 
           <div
             class="col-3 infoBox  border border-light border-left-0 border-bottom-0"
+            style="background-color: gainsboro"
           >
             <p class="date">
-              Feburary
+              July
               <br />
-              17
+              25 - 28
             </p>
             <p class="timeLocation">
-              <b>Time </b>:
+              <b>Time :</b> 6:00PM - 3:00PM 
               <br />
-              <b>Location </b>:
+              <b>Location :</b> Vancouver
             </p>
-            <button class="action">Action</button>
+            <button class="action">Register</button>
+            <button class="calendar" style="z-index: 9999">Add to calendar</button>
           </div>
         </div>
-        <div class="row bot">
+        <div class="row bottom">
           <div class="col-2"></div>
           <div
             class="col-5 description border border-light border-right-0 border-top-0"
           >
-            <h4 style="text-align: center; margin-top: 40px;" id="eventName"></h4>
+            <h4
+              style="text-align: center; margin-top: 40px;"
+              id="eventName"
+            ></h4>
 
-            <div class="textbox">
+            <div class="textBox">
               <p class="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -72,7 +71,6 @@
           <div
             class="col-3 maps border border-light border-left-0 border-top-0"
           >
-            <button class="calendar">Add to calendar</button>
             <div class="mapBox">
               <div class="backgroundBorder">
                 <div class="mapouter">

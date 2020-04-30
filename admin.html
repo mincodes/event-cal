@@ -4,6 +4,8 @@
   <title>Calendar Admin</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
   <link href="css/index.css" rel="stylesheet" />
   <link href="css/admin.css" rel="stylesheet" />
   <script src="js/database.js"></script>
@@ -65,6 +67,7 @@
             <div style="width: calc(100% - 130px)">
               <div class="table-header-title">Name</div>
               <div class="table-entry">VSA Olympics</div>
+
             </div>
             <div style="width: 110px;">
               <div class="table-header-title">Region</div>
@@ -72,17 +75,40 @@
             </div>
             <div style="width: 200px;">
               <div class="table-header-title">Dates</div>
-              <div class="table-entry">              Feb 19, 2020 -<br/>
+              <div class="table-entry"> Feb 19, 2020 -<br />
                 Feb 22, 2020</div>
             </div>
             <div style="width: 100px;">
               <div class="table-header-title">Action</div>
-              <div class="table-entry"><a href="#" class="table-action">></a><div>
+              <div class="table-entry"><a href="#" class="table-action">></a>
+                <div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        <thead>
+          <tr>
+            <th class="table-header-title" style="width: calc(100% - 130px)">Name</th>
+            <th class="table-header-title" style="width: 90px;">Region</th>
+            <th class="table-header-title" style="width: 200px;">Dates</th>
+            <th class="table-header-title" style="width: 50px;">Action</th>
+          </tr>
+        </thead>
+        <div class="bg-tertiary">
+          <table class="full-width">
+            <thead>
+              <tr>
+                <th class="table-header-title" style="width: calc(100% - 130px)">Name</th>
+                <th class="table-header-title" style="width: 90px;">Region</th>
+                <th class="table-header-title" style="width: 200px;">Dates</th>
+                <th class="table-header-title" style="width: 50px;">Action</th>
+              </tr>
+            </thead>
+
+            <tbody id="tableEntries" class="full-width">
+            </tbody>
+        </div>
 </body>
- <script src="submit.js"> </script>
-</html>
+<script src="js/admin.js"> </script>
+<script src="js/library.js"> </script>
